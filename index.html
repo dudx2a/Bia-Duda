@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aerostar</title>
+   <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class = "main-header">
+        <nav class="navegacao">
+            <ul class = "nav-lista"> 
+                <li class="nav-lista-item"> 
+                    <a href="index.html" class="nav-link">Passagens</a> 
+                </li>
+
+                <li class="nav-lista-item"> 
+                    <a href="hospedagens.html" class="nav-link">Hospedagens</a> 
+                </li>
+
+                  <li class="nav-lista-item"> 
+                    <a href="contato.html" class="nav-link">Contato</a> 
+                </li>
+            </ul>
+                  </nav>
+                  <a href="index.html"><img class="logo" src="AEROSTAR-removebg-preview.png"/> </a>
+    </header>
+    <br>
+    <img class="paisagens" src="ceuroxo.jpg" alt="ceu">
+<section class="passagens">
+    <h2>Passagens aéreas</h2>
+    <div class="container">
+        <form action="#">
+            <div class="form-group">
+                <label for="class">Classe:</label>
+                <select id="class" name="class">
+                    <option value="economica">Econômica</option>
+                    <option value="executiva">Executiva</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="trip">Tipo de Viagem:</label>
+                <select id="trip" name="trip">
+                    <option value="ida-volta">Ida e Volta</option>
+                    <option value="somente-ida">Somente Ida</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="origin">Origem:</label>
+                <input type="text" id="origin" name="origin" required>
+            </div>
+            <div class="form-group">
+                <label for="destination">Destino:</label>
+                <input type="text" id="destination" name="destination" required>
+            </div>
+            <div class="form-group">
+                <label for="departure-date">Data de Ida:</label>
+                <input type="date" id="departure-date" name="departure-date" required>
+            </div>
+            <div class="form-group" id="return-date-group">
+                <label for="return-date">Data de Volta:</label>
+                <input type="date" id="return-date" name="return-date">
+            </div>
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+</section>
+</body>
+</html>
+</section>
+</body>
+</html>
